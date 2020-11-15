@@ -1,6 +1,7 @@
-# Self-Driving Vehicle Simulation using Deep Learning(CNN)
+# <span style="color:blue">AI driven Vehicle Simulation using Deep Learning
+# Convolutional neural network
 
-This repo contains code for predicting steering angles of self driving car. The inspiraion is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA
+This repository contains code for predicting steering angles of self driving car. The inspiration is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA
 
 The End to End Learning for Self-Driving Cars research paper can be found at (https://arxiv.org/abs/1604.07316) This repository is built on PyTorch library.
 
@@ -17,6 +18,8 @@ We will use Python as the primary programming language and PyTorch as the Deep L
 
 1. Self-driving car simulator developed by [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) with Unity. Download [here](https://github.com/udacity/self-driving-car-sim)
 
+![Download](Images/simulation_file.png)
+
 2. Install PyTorch environment (latest version the best) in your local machine.
 
 3. Log in Google Colab (if you do not have GPU and would love to utilize the power of GPU, please try this and be sure to enable GPU as accelerator)
@@ -28,7 +31,8 @@ We will use Python as the primary programming language and PyTorch as the Deep L
 git clone https://github.com/milsun/AI-Driver-CNN-DeepLearning-PyTorch.git
 python3 drive.py model/model.pth  
 ```
-
+Control the Car 
+![car](Images/controls.png)
 ## Dataset
 
 The Udacity provided dataset works well but it is not enough to get the car running in difficult terrain (like the second track in Udacity simulator). To gather the data from track 2, we would first need to create a folder in our project directory. Let’s call this folder "data". Now, start the simulator. Select the second track from the menu and go to the training mode option.
