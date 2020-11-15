@@ -2,7 +2,7 @@
 
 This repo contains code for predicting steering angles of self driving car. The inspiraion is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA
 
-The End to End Learning for Self-Driving Cars research paper can be found at (https://arxiv.org/abs/1604.07316) This repository is built on PyTorch library.
+The End to End Learning for Self-Driving Cars research paper can be found at (https://github.com/aaroha33/AI-Driven-Autonomous-Vehicles/blob/main/Research_Paper.pdf) This repository is built on PyTorch library.
 
 ## Abstract
 
