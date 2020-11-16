@@ -1,9 +1,12 @@
 # <span style="color:blue">AI driven Vehicle Simulation using Deep Learning
-# Convolutional neural network
 
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Convolutional neural network
 This repository contains code for predicting steering angles of self driving car. The inspiration is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA
 
 The End to End Learning for Self-Driving Cars research paper can be found at (https://github.com/aaroha33/AI-Driven-Autonomous-Vehicles/blob/main/Research_Paper.pdf) This repository is built on PyTorch library.
+
+
+<font color="red">The Udacity open source self-driving car project with self enhancements.</font>
 
 ## Abstract
 
