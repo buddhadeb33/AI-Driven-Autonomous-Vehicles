@@ -1,4 +1,4 @@
-# <span style="color:blue">AI driven Vehicle Simulation using Deep Learning
+# <font color="blue">AI driven Vehicle Simulation using Deep Learning
 
 ## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Convolutional neural network
 This repository contains code for predicting steering angles of self driving car. The inspiration is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA
@@ -6,7 +6,7 @@ This repository contains code for predicting steering angles of self driving car
 The End to End Learning for Self-Driving Cars research paper can be found at (https://github.com/aaroha33/AI-Driven-Autonomous-Vehicles/blob/main/Research_Paper.pdf) This repository is built on PyTorch library.
 
 
-<font color="red">The Udacity open source self-driving car project with self enhancements.</font>
+
 
 ## Abstract
 
@@ -14,18 +14,31 @@ Data contains 3 camera(left, centre, right) output images as inputs along with s
 
 Here, I have used CNN based architecture, which comprises of 5 Convolutions layers followed by a fully connected deep neural network with 3 hidden layers for predicting steering angles. Loss function used here is Mean Squared Error.
 
+- <font color="blue">self_driving_car.py containing the script to create and train the model.
+
+- <font color="blue">Self_Driving_Car.ipynb containing the notebook code to create and train the model.
+
+- <font color="blue">model.py as a helper function for loading the required model in drive.py.
+
+- <font color="blue">drive.py for driving the car in autonomous mode.
+
+- <font color="blue">model.h5 containing a trained convolution neural network.
 
 ## Prerequisites
 
-We will use Python as the primary programming language and PyTorch as the Deep Learning framework. Other resources / software / library could be found as follows.
+We will use Python 3.8 as the primary programming language and PyTorch as the Deep Learning framework. Other resources / software / library could be found as follows.
 
 1. Self-driving car simulator developed by [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) with Unity. Download [here](https://github.com/udacity/self-driving-car-sim)
 
 ![Download](Images/simulation_file.png)
 
 2. Install PyTorch environment (latest version the best) in your local machine.
+type :
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
 
 3. Log in Google Colab (if you do not have GPU and would love to utilize the power of GPU, please try this and be sure to enable GPU as accelerator)
+
 
 
 ## Usage
